@@ -1,0 +1,14 @@
+name: sandworm
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - black
+  - numpy
+  - pip
+  - pygame
+  - sphinx-autoapi
+  - sphinx_rtd_theme
+  - pip:
+    - https://github.com/revitron/revitron-sphinx-theme/archive/master.zip
