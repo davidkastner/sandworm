@@ -1,29 +1,30 @@
-"""Provide the primary functions."""
+import pygame
+import sys
 
+# Initialize pygame and global variables
+pygame.init()
+window_width = 400
+window_height = 500
+framerate = 60
+light_green = (175,215,70)
 
-def canvas(with_attribution=True):
-    """
-    Placeholder function to show example docstring (NumPy format).
+# Create pygame game window
+screen = pygame.display.set_mode((window_width, window_height))
+clock = pygame.time.Clock()
 
-    Replace this function and doc string for your own project.
+while True:
+    # Check if the user closed the window
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+            sys.exit()
 
-    Parameters
-    ----------
-    with_attribution : bool, Optional, default: True
-        Set whether or not to display who the quote is from.
+    screen.fill(light_green)
+    screen.blit(background, (x_pos, y_pos))
+    
+    # Draw all our elements
+    pygame.display.update()
 
-    Returns
-    -------
-    quote : str
-        Compiled string including quote and optional attribution.
-    """
-
-    quote = "The code is but a canvas to our imagination."
-    if with_attribution:
-        quote += "\n\t- Adapted from Henry David Thoreau"
-    return quote
-
-
-if __name__ == "__main__":
-    # Do something if this file is invoked on its own
-    print(canvas())
+    # Set framerate
+    clock.tick(framerate)
+    
