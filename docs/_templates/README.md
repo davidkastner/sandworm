@@ -12,3 +12,13 @@ html_static_path = ['_templates']
 
 ## Examples of file to add to this directory
 * HTML extensions of stock pages like `page.html` or `layout.html`
+
+
+https://seliel-the-shaper.itch.io/desert-sands
+https://szadiart.itch.io/rpg-worlds-desert
+https://szadiart.itch.io/craftland-tropical-terrain
+https://seliel-the-shaper.itch.io/tropical-shores
+
+https://cosmo-art.itch.io/low-poly-castle
+https://cosmo-art.itch.io/low-poly-rocks
+https://maxparata.itch.io/voxel-mechas
