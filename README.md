@@ -5,7 +5,7 @@ sandworm
 [![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/sandworm/branch/main/graph/badge.svg)](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/sandworm/branch/main)
 
 
-A game built in python using simple AI.
+Playable simulations in python
 
 ### Copyright
 
