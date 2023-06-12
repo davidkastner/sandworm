@@ -1,0 +1,15 @@
+name: qa
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - black
+  - cookiecutter
+  - numpy
+  - pip
+  - sphinx-autoapi
+  - sphinx_rtd_theme
+  - pip:
+    - pygame
+    - https://github.com/revitron/revitron-sphinx-theme/archive/master.zip
