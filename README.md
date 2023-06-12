@@ -23,7 +23,7 @@ sandworm
 
 
 ## 1. Overview
-Sandworm is a simple hobby project for chill weekends to game a better understanding of using python for large projects and playable simulations. Sandworm will contain several different playable simulations.
+Sandworm is a simple hobby project for chill weekends. The objective is to gain a better understanding of playable simulations. Sandworm will contain several different playable simulations.
 
 ## 2. Installation
 Install the package by running the follow commands inside the repository.
